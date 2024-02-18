@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5;url={{ .LongURL }}">
+    <title>Redirecting...</title>
+</head>
+
+<body>
+    <p>You are being redirected to the original URL. If the redirection doesn't happen, <a href="{{ .LongURL }}">click
+            here</a>.</p>
+    <script>
+        setTimeout(function () {
+            window.location.href = "{{ .LongURL }}";
+        }, 5000);
+    </script>
+</body>
+
+</html>
