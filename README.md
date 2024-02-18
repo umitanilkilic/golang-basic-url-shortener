@@ -12,6 +12,7 @@ Endpoint: `POST   /shorten-url`
 {
     "long_url": "https://www.umitanilkilic.com"
 }
+```
 
 **Response Body:**
 ```json
