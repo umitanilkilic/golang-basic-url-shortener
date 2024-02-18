@@ -1,3 +1,4 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/umitanilkilic/golang-basic-url-shortener)](https://goreportcard.com/report/github.com/umitanilkilic/golang-basic-url-shortener)
 # Basic URL Shortener
 
 Welcome to the Basic URL Shortener project! This Golang-based application provides a straightforward URL shortening service with a redirection page.
